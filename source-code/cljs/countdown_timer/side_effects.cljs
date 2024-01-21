@@ -30,6 +30,10 @@
              :step                (swap! state/COUNTDOWNS update countdown-id - step))))
 
 (defn start-countdown!
+  ; @note
+  ; The actual state of countdowns are stored in a [Reagent](https://github.com/reagent-project/reagent) atom,
+  ; to make Reagent components rerender when the countdown state changes.
+  ;
   ; @description
   ; Starts a countdown timer.
   ;

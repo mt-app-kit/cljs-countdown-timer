@@ -1,8 +1,8 @@
 
 (ns countdown-timer.side-effects
-    (:require [countdown-timer.state :as state]
-              [countdown-timer.env :as env]
-              [time.api :as time]))
+    (:require [countdown-timer.env   :as env]
+              [countdown-timer.state :as state]
+              [time.api              :as time]))
 
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------

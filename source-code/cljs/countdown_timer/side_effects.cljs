@@ -35,7 +35,7 @@
   ; to make Reagent components rerender when the countdown state changes.
   ;
   ; @description
-  ; Starts a countdown timer.
+  ; Starts a countdown timer and updates the remaining time periodically.
   ;
   ; @param (keyword) countdown-id
   ; @param (map) countdown-props

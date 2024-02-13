@@ -1,6 +1,6 @@
 
 (ns countdown-timer.state
-    (:require [reagent.core :refer [atom] :rename {atom ratom}]))
+    (:require [reagent.core :as reagent]))
 
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
@@ -12,4 +12,4 @@
 ;
 ; @atom (map)
 ; {:my-countdown (ms)}
-(defonce COUNTDOWNS (ratom {}))
+(defonce COUNTDOWNS (reagent/atom {}))

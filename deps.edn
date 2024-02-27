@@ -1,6 +1,6 @@
 
 {:paths ["source-code/cljc"]
  :deps  {bithandshake/cljc-time    {:git/url "https://github.com/bithandshake/cljc-time"
-                                    :sha     "967dd5789e830b412e458c595bc1d8aa66720d6a"}
+                                    :sha     "064c93a2525dbce1b4856850c76631b7dcad5d98"}
          org.clojure/clojurescript {:mvn/version "1.10.891"}
          reagent/reagent           {:mvn/version "1.2.0"}}}
